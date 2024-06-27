@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_container{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+}
+.header_container a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+.header_container a:hover {
+    color: green;
+}
+
+.header_container a:active {
+    color: yellow;
+}
